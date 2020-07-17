@@ -1,0 +1,2 @@
+class DeathblowsController < ApplicationController
+end

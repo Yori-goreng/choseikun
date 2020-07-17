@@ -1,0 +1,2 @@
+class Deathblow < ApplicationRecord
+end
