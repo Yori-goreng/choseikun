@@ -1,0 +1,2 @@
+class CharacterMagic < ApplicationRecord
+end
