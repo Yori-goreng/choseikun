@@ -1,0 +1,16 @@
+%h1 調整さんのようなカレンダー
+.tyousei__calendars
+  %ul.tyousei__calendars-body
+    %li.tyousei__calendars-item
+      %p -
+      - @magics.each do |magic|
+        %p
+          = magic.name
+              - @characters.each do |character|
+      %li.tyousei__calendars-item
+        %p
+          = character.name_text
+        - @magics.each do |magic|
+          %p
+            - if character.character_magics.find_by(magic_id: magic.id).present?
+              ●

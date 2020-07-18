@@ -1,0 +1,14 @@
+.tyousei__calendars-body
+  display: flex
+.tyousei__calendars
+  list-style: none
+.tyousei__calendars-item
+  list-style: none
+  width: 100px
+  text-align: center
+  &:first-child
+    font-weight: 700
+  p
+    height: 30px
+    &:first-chirld
+      font-weight: 700
